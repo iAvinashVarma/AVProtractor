@@ -11,6 +11,12 @@ Need to install the following before running proctractor test.
 * [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/)
 * [Node.js](https://nodejs.org/)
 
+### Install Protractor and Web Driver
+
+```
+C:\AVProtractor> npm install -g protractor
+C:\AVProtractor> webdriver-manager update
+```
 
 ### Check Versions
 

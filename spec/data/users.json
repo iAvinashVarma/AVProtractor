@@ -1,0 +1,40 @@
+[
+    {
+        "firstName": "Avinash",
+        "lastName": "Varma",
+        "code": 500049,
+        "currency": [ 
+            "Rupee",
+            "Dollar",
+            "Pound"
+        ],
+        "deposit": [ 
+            1000,
+            1500
+        ],
+        "withdraw": [
+            200,
+            1000
+        ],
+        "Search": "Avi"
+    },
+    {
+        "firstName": "Pruthvi",
+        "lastName": "Raju",
+        "code": 500050,
+        "currency": [
+            "Rupee",
+            "Dollar",
+            "Pound"
+        ],
+        "deposit": [
+            1500,
+            1000
+        ],
+        "withdraw": [
+            350,
+            450
+        ],
+        "Search": "Raju"
+    }
+]

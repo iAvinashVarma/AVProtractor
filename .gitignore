@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+.vs
+reports
+*.js
+*.js.map
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!**/protractor.report.js

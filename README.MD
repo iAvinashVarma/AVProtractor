@@ -1,51 +1,44 @@
-# AVProtractor
+# Protractor
 
-Sample Protractor Test Project.
+Sample Protractor Project on [XYZ Bank](http://www.way2automation.com/angularjs-protractor/banking/#/login) using TypeScript.
 
-### Prerequisites
+---
 
-Need to install the following before running proctractor test.
+## Install Packages
 
-
-* [GoogleChrome](https://www.google.com/chrome/browser/)
-* [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/)
-* [Node.js](https://nodejs.org/)
-
-### Install Protractor and Web Driver
-
-```
-C:\AVProtractor> npm install -g protractor
-C:\AVProtractor> webdriver-manager update
+```cmd
+C:\AVProtractor> npm install
 ```
 
-### Check Versions
+---
 
-```
-C:\AVProtractor> java -version
-C:\AVProtractor> node --version
-C:\AVProtractor> npm --version
-```
+## Compile TypeScript and Start WebDriver Manager
 
-### Running the tests
-
-Before running the test need to start the WebDriver.
-
-```
-C:\> webdriver-manager start
+```cmd
+C:\AVProtractor> npm run start
 ```
 
-Once WebDriver is started, run the following command.
+---
 
-```
-C:\AVProtractor> protractor config.js
-```
+## Run Protractor
 
-### Receommended IDE
-
-```
-Visual Studio Code
+```cmd
+C:\AVProtractor> npm run test
 ```
 
-## Authors
+---
 
-* **Avinash Varma** - *Initial work* - [iAvinashVarma](https://github.com/iAvinashVarma)
+## Run Protractor with report
+
+```cmd
+C:\AVProtractor> npm run report
+```
+
+---
+## Clean Reports
+
+```cmd
+C:\AVProtractor> gulp
+```
+
+---
